@@ -20,6 +20,7 @@ export default function App() {
         <input
           id="visitor-name"
           type="text"
+          autoComplete="name"
           value={name}
           onChange={(event) => setName(event.target.value)}
           placeholder="Type your name"
