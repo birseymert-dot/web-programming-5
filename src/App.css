@@ -73,3 +73,8 @@ button:hover {
   margin-top: 0.5rem;
   color: #475569;
 }
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
+}
