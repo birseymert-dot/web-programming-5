@@ -11,6 +11,7 @@ export default function ProductList() {
     <section aria-labelledby="products-heading">    
       <p>Browse the available products below.</p>
       <h2 id="products-heading">Products</h2>
+      <p>Showing {products.length} products</p>
       {products.map((product) => (
         <Product
           key={product.id}
