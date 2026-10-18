@@ -8,7 +8,8 @@ const products = [
 
 export default function ProductList() {
   return (
-    <section aria-labelledby="products-heading">
+    <section aria-labelledby="products-heading">    
+      <p>Browse the available products below.</p>
       <h2 id="products-heading">Products</h2>
       {products.map((product) => (
         <Product
