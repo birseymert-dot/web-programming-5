@@ -5,7 +5,7 @@ export default function Product({ title, price }) {
     <Card>
       <article className="product">
         <h2>{title}</h2>
-        <p>Price: ${price}</p>
+      <p>Price: ${price.toLocaleString()}</p>
       </article>
     </Card>
   );
