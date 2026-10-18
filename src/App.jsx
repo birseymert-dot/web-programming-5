@@ -25,6 +25,11 @@ export default function App() {
           onChange={(event) => setName(event.target.value)}
           placeholder="Type your name"
         />
+        {name && (
+  <button type="button" onClick={() => setName("")}>
+    Clear name
+  </button>
+)}
       </div>
       <p>Hello, {name}</p>
       {showProducts && <ProductList />}
